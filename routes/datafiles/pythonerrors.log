@@ -1,0 +1,1243 @@
+[2024-09-19T04:37:59.190Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.257Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.313Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.375Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.476Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.537Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.599Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.664Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.724Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.800Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.866Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:37:59.939Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.059Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.170Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.308Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.392Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.485Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.564Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.641Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T04:38:00.751Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:53.345Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:53.435Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:53.519Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:53.608Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:53.684Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:12:53.690Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:53.853Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:53.950Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:54.031Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:54.137Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:12:54.279Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:12:54.319Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T05:19:58.037Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:19:58.773Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:19:59.561Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:00.280Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:01.008Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:01.681Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:02.428Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:03.010Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:03.606Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:04.322Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:05.033Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:05.741Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:06.505Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:20:07.350Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:21:36.684Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:21:37.342Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-19T05:23:14.272Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-19T05:23:14.346Z] Risk_management.py: book_profit_price for strategy 65: 26.23
+[2024-09-19T05:23:14.762Z] Risk_management.py-place_stop_loss_order: [object Object]
+[2024-09-19T05:23:14.823Z] place_single_order: Failed to place order for buy: can't multiply sequence by non-int of type 'float'
+[2024-09-19T05:23:14.972Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:23:16.100Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:34:48.845Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:34:50.019Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:34:51.180Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:34:52.294Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:34:53.430Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:36:11.530Z] strategy_engine: Action for strategy has already reached the maximum execution count
+[2024-09-19T05:36:12.401Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-19T05:36:12.486Z] Risk_management.py: book_profit_price for strategy 65: 26.23
+[2024-09-19T05:36:12.847Z] Risk_management.py-place_stop_loss_order: [object Object]
+[2024-09-19T05:36:12.908Z] place_single_order: Failed to place order for buy: can't multiply sequence by non-int of type 'float'
+[2024-09-19T05:36:13.074Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:36:14.256Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:51:12.723Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-19T05:51:12.804Z] Risk_management.py: book_profit_price for strategy 65: 26.23
+[2024-09-19T05:51:13.070Z] Risk_management.py: stop_loss_price for strategy 65: 25.71
+[2024-09-19T05:51:13.392Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:51:14.569Z] strategy_engine: No waiting strategies found
+[2024-09-19T05:51:15.630Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:24.104Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:25.262Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:26.376Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:27.458Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:28.544Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:29.621Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:30.702Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:31.811Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:32.874Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:34.049Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:35.129Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:36.209Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:37.291Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:38.418Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:39.552Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:40.684Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:41.819Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:42.955Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:44.070Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:45.136Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:46.192Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:47.249Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:48.313Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:49.381Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:50.443Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:51.511Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:52.636Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:53.719Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:54.846Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:55.927Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:57.009Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:58.064Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:02:59.143Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:00.227Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:01.405Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:02.511Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:09.783Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/orders/pending
+[2024-09-19T06:03:09.914Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:11.072Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:12.188Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:13.250Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:14.377Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:15.461Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:16.524Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:17.611Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:18.679Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:19.765Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:19.930Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/orders/pending
+[2024-09-19T06:03:20.828Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:21.912Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:22.996Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:24.064Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:25.127Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:26.212Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:27.297Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:28.378Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:29.463Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:29.977Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/orders/pending
+[2024-09-19T06:03:30.545Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:31.628Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:32.678Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:33.759Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:34.892Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:36.035Z] strategy_engine: No waiting strategies found
+[2024-09-19T06:03:37.109Z] strategy_engine: No waiting strategies found
+[2024-09-19T07:10:56.548Z] strategy_engine: No waiting strategies found
+[2024-09-19T07:10:56.652Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:56.846Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:57.033Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:57.184Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:57.430Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:57.585Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:57.737Z] strategy_engine: No waiting strategies found
+[2024-09-19T07:10:57.849Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:58.011Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:58.181Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:58.338Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:58.520Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:58.750Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:58.950Z] strategy_engine: No waiting strategies found
+[2024-09-19T07:10:58.961Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:59.112Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:59.285Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:59.462Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:59.667Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:10:59.947Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:11:00.063Z] strategy_engine: No waiting strategies found
+[2024-09-19T07:11:00.102Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T07:11:00.230Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:13.864Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:13.925Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:14.084Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:14.232Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:14.418Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:14.578Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:14.749Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:14.916Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:15.063Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:15.095Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:15.274Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:15.438Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:15.619Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:15.817Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:16.040Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:16.247Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:16.261Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:16.438Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:16.600Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:16.786Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:16.959Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:17.150Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:17.481Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:17.493Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:17.697Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:17.816Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:17.942Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.051Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.156Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.267Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.365Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.471Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.572Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.672Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:18.695Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.798Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.898Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:18.998Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.123Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.300Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.395Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.497Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.587Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.706Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.779Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:19.859Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:19.969Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.093Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.257Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.349Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.478Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.587Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.706Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.819Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:20.893Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:20.957Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.047Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.155Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.249Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.348Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.458Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.560Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.676Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.835Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.967Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:21.988Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:22.123Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:22.240Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:22.357Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:22.467Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:22.570Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:22.704Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:22.820Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:22.949Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.070Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:23.097Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.223Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.392Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.528Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.616Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.752Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.905Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:23.990Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.103Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.150Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:24.218Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.324Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.432Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.528Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.633Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.726Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.870Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:24.999Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.125Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.229Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:25.232Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.322Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.428Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.522Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.609Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.717Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.838Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:25.933Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.035Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.148Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.269Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.319Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:26.413Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.500Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.653Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.797Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:26.929Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:27.084Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:27.212Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:27.359Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:27.436Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:27.543Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:27.646Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:27.765Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:27.880Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:28.018Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:28.164Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:28.301Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:28.474Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:28.527Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:28.651Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:28.783Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:28.936Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.087Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.230Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.343Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.492Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.599Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.628Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:29.764Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.883Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:29.986Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:30.191Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:30.382Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:30.480Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:30.601Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:30.734Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:30.737Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:30.861Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:30.982Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.098Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.211Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.358Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.515Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.638Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.736Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.821Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:31.845Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:31.946Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.083Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.214Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.324Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.464Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.556Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.663Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.780Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.891Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:32.914Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:33.003Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:33.126Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:33.259Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:33.413Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:33.739Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:34.098Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:34.101Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:34.294Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:34.437Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:34.581Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:34.880Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:35.054Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:35.303Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:35.309Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:35.468Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:35.617Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:35.750Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:35.905Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.017Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.132Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.231Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.331Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.387Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:36.482Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.608Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.742Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.843Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:36.929Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:37.030Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:37.182Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:37.331Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:37.485Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:37.489Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:37.642Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:37.796Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:37.922Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.005Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.127Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.230Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.327Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.451Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.595Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:38.598Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.771Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:38.919Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.055Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.178Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.287Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.403Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.494Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.597Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.681Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:39.713Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.804Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:39.997Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:40.167Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:40.297Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:40.488Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:40.609Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:40.730Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:40.807Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:40.919Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.053Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.226Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.385Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.511Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.641Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.754Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.866Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:41.932Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:42.004Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.114Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.219Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.321Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.422Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.523Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.625Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.734Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:42.845Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.008Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.040Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:43.154Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.269Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.364Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.464Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.555Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.675Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.804Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:43.901Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.023Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.149Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:44.152Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.269Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.369Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.473Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.572Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.690Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.827Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:44.983Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:45.119Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:45.230Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:45.264Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:45.422Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:45.627Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:45.778Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:45.897Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.016Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.110Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.219Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.339Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:46.341Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.479Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.652Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.811Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:46.930Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.030Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.133Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.238Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.375Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.443Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:47.533Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.657Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.830Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:47.959Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.060Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.170Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.259Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.376Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.505Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.529Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:48.619Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.727Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.843Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:48.992Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:49.130Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:49.321Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:49.483Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:49.621Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:49.619Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:49.816Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:50.032Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:50.234Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:50.419Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:50.549Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:50.736Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:50.763Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:50.898Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:51.037Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:51.152Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:51.299Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:51.446Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:51.596Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:51.748Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:51.843Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:51.889Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:52.015Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:52.150Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:52.369Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:52.572Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:52.687Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:52.809Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:52.943Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:52.960Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:53.072Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:53.214Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:53.356Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:53.502Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:53.646Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:53.753Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:53.926Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.041Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:54.065Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.155Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.274Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.372Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.479Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.723Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.863Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:54.960Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.052Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.122Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:55.187Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.298Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.400Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.528Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.662Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.812Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:55.976Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.120Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.225Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:56.266Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.355Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.475Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.599Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.705Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.841Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:56.997Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.112Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.205Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.301Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:57.325Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.510Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.656Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.772Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.891Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:57.991Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.109Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.219Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.312Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.383Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:58.433Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.528Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.631Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.765Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.892Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:58.982Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:59.148Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:59.312Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:59.482Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:59.504Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:17:59.647Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:59.823Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:17:59.975Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:00.164Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:00.353Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:00.497Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:00.595Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:00.619Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:00.741Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:00.842Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:00.953Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:01.053Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:01.153Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:01.275Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:01.504Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:01.670Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:01.694Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:01.866Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:01.979Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:02.120Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:02.262Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:02.418Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:02.574Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:02.691Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:02.804Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:02.825Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:02.933Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:03.074Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:03.212Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:03.332Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:03.523Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:03.689Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:03.851Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:03.907Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:04.045Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:04.210Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:04.367Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:04.543Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:04.648Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:04.793Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:04.998Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:05.031Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:05.187Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:05.393Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:05.554Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:05.665Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:05.765Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:05.883Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:05.996Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:06.106Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:06.150Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:06.263Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:06.417Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:06.549Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:06.668Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:06.771Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:06.955Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:07.129Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:07.231Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:07.339Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:07.512Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:07.620Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:07.716Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:07.819Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:07.923Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.014Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.136Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.244Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.331Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:08.416Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.562Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.708Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.834Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:08.946Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:09.072Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:09.215Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:09.328Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:09.412Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:09.431Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:09.622Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:09.754Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:09.903Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:10.058Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:10.220Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:10.375Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:10.525Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:10.527Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:10.633Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:10.745Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:10.904Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.000Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.106Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.213Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.321Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.423Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.597Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.652Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:11.741Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:11.905Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:12.054Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:12.172Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:12.336Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:12.518Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:12.679Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:12.765Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:12.841Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:12.952Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.041Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.173Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.322Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.479Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.631Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.756Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.846Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:13.873Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:13.961Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.056Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.158Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.288Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.449Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.615Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.779Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.905Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:14.922Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:15.097Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:15.204Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:15.339Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:15.462Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:15.589Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:15.698Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:15.809Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:15.921Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.020Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:16.048Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.163Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.273Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.397Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.515Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.637Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.798Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:16.966Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.096Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:17.134Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.235Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.344Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.456Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.575Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.694Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.815Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:17.960Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:18.202Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:18.229Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:18.345Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:18.502Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:18.605Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:18.709Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:18.799Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:18.905Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:19.032Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:19.226Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:19.316Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:19.344Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:19.525Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:19.698Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:19.804Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:19.947Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:20.081Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:20.172Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:20.376Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:20.496Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:20.578Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:20.691Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:20.839Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:20.965Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:21.138Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:21.277Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:21.467Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:21.677Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:18:21.704Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:21.905Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:22.011Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:22.123Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:22.242Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:22.376Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:22.484Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:22.576Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:18:22.686Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-19T08:19:32.303Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:33.385Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:34.472Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:35.556Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:36.619Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:37.702Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:38.823Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:39.909Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:40.993Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:42.104Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:43.212Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:44.294Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:45.352Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:46.437Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:47.522Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:48.602Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:49.673Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:50.757Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:51.834Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:52.895Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:53.981Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:55.062Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:56.143Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:57.226Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:58.313Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:19:59.386Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:20:00.471Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:20:48.388Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:20:49.477Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:20:50.561Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:20:51.673Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:20:52.761Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:21:13.355Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-19T08:21:13.395Z] Risk_management.py: book_profit_price for strategy 68: 28.86
+[2024-09-19T08:21:13.674Z] Risk_management.py: stop_loss_price for strategy 68: 28.28
+[2024-09-19T08:21:13.955Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:21:15.045Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:21:16.130Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:21:17.217Z] strategy_engine: No waiting strategies found
+[2024-09-19T08:21:18.309Z] strategy_engine: No waiting strategies found
+[2024-09-20T06:56:58.159Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.253Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.344Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.435Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.525Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.608Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.692Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.763Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.847Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:58.997Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.071Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.144Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.226Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.294Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.375Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.456Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.533Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.621Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.709Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.858Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:56:59.945Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:57:00.033Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:57:00.129Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:57:00.214Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:57:00.374Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: name 'indicator' is not defined
+[2024-09-20T06:59:24.834Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T06:59:25.474Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T07:00:59.082Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T07:00:59.542Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T07:01:00.207Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T07:02:21.463Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-20T07:02:21.469Z] place_single_order: Failed to place order for buy: float() argument must be a string or a real number, not 'NoneType'
+[2024-09-20T07:10:44.476Z] strategy_engine: No waiting strategies found
+[2024-09-20T07:12:29.191Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-20T07:12:29.200Z] place_single_order: Failed to place order for buy: float() argument must be a string or a real number, not 'NoneType'
+[2024-09-20T07:17:11.225Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-20T07:17:11.245Z] Risk_management.py: book_profit_price for strategy 65: 24.95
+[2024-09-20T07:17:11.467Z] Risk_management.py: stop_loss_price for strategy 65: 24.45
+[2024-09-20T07:21:06.448Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:06.576Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:06.671Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:06.776Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:06.858Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:06.998Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.085Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.167Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.240Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.316Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.393Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.464Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.541Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.629Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.700Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.795Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:07.882Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.002Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.104Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.273Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.358Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.460Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.548Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.629Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.703Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.809Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.896Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:08.978Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.064Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.180Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.262Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.348Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.464Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.670Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.799Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:09.999Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:10.133Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:10.243Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:10.418Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:10.528Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:10.691Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:10.786Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:10.953Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.070Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.175Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.276Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.366Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.454Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.547Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.664Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.779Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.878Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:11.960Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.037Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.127Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.242Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.330Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.455Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.611Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.779Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:12.901Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.008Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.131Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.214Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.311Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.409Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.513Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.615Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.709Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.803Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:13.917Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.111Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.295Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.446Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.557Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.643Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.716Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.817Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.896Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:14.962Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.030Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.125Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.208Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.318Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.382Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.453Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.529Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.610Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.683Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.757Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.843Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:15.950Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.046Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.147Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.230Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.311Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.377Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.475Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.547Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.682Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.759Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.860Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:16.938Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.062Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.175Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.241Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.315Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.393Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.470Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.534Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.639Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.711Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.786Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.868Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:17.939Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.027Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.094Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.169Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.245Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.316Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.399Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.490Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.575Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.714Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.803Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.890Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:18.946Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.006Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.127Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.204Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.293Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.395Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.482Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.565Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.642Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.765Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.846Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.908Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:19.967Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.025Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.082Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.172Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.237Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.321Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.387Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.456Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.543Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.644Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.701Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.775Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.856Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:20.959Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.040Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.129Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.218Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.305Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.373Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.447Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.518Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.644Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.717Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.827Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:21.905Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.019Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.101Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.196Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.306Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.374Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.437Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.521Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.606Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.675Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.741Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.803Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.862Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:22.976Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.064Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.197Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.271Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.354Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.429Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.510Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.574Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.639Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.725Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.786Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.842Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:23.940Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.029Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.126Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.238Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.309Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.437Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.539Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.617Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.743Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.825Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.894Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:24.955Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.052Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.135Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.214Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.291Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.384Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.461Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.547Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.656Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.742Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.875Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:25.968Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.054Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.179Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.323Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.420Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.500Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.654Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.743Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:26.886Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.013Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.152Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.231Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.401Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.502Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.594Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.685Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.772Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:27.920Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T07:21:28.051Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:37.285Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:37.404Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:37.534Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:37.639Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:37.758Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:37.908Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:38.078Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:38.212Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:38.334Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:09:38.445Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.072Z] strategy_engine: No waiting strategies found
+[2024-09-20T09:13:31.180Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.273Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.374Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.476Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.576Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.671Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.789Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.880Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:31.985Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:32.097Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:13:32.179Z] strategy_engine: No waiting strategies found
+[2024-09-20T09:13:32.215Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:49.901Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:49.985Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:50.095Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:50.197Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:50.280Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:50.363Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T09:14:50.419Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:50.533Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:50.681Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:14:50.826Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T09:15:36.115Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /charts/historical (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000282CD20F770>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+[2024-09-20T09:15:48.559Z] strategy_engine: Error processing RSI for symbol SOUTHBANK: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000282CD574E60>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+[2024-09-20T09:17:40.483Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T09:17:51.638Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T09:17:52.202Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T11:29:46.666Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T11:29:47.485Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-20T12:02:13.318Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:13.408Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:13.532Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:13.737Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:13.875Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:14.056Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:14.335Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:14.497Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:02:14.695Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.055Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.139Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.214Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.307Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.412Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.531Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.652Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.743Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.838Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:04:30.943Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:03.925Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.016Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.137Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.275Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.442Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.551Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.649Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.769Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.852Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:04.947Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.040Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.129Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.208Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.301Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.428Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.517Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.616Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.725Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.807Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-20T12:39:05.899Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T05:09:30.044Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:09:30.595Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:09:31.314Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:09:31.857Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:28:40.828Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:28:41.469Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:31:32.466Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:31:33.066Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:31:48.532Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:31:49.239Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:34:42.619Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:34:43.391Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:44:06.175Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:46:49.881Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:47:03.816Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:47:04.445Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:50:42.265Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:50:42.596Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:50:42.970Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:53:19.582Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:53:19.869Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:53:20.195Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:53:20.439Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:57:44.448Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:57:44.785Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:57:45.146Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T05:57:45.492Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:07:51.704Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:07:52.128Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:07:52.413Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:09:21.853Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:09:22.218Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:09:22.528Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:10:39.045Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:10:39.332Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:10:39.608Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:10:39.967Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:10:40.346Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:12:47.550Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:12:47.882Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T06:18:30.173Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-23T06:18:30.206Z] Risk_management.py: book_profit_price for strategy 65: 24.95
+[2024-09-23T06:18:30.499Z] Risk_management.py: stop_loss_price for strategy 65: 24.45
+[2024-09-23T06:27:16.040Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:16.264Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:16.474Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:16.657Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:16.853Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:17.082Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:17.358Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:17.619Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:17.873Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:18.236Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:18.472Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:18.663Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:18.911Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:19.088Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:19.342Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:19.564Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:19.786Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:19.989Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:20.269Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:20.382Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:20.516Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:20.611Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:20.739Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:20.848Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:20.960Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:21.109Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T06:27:21.240Z] status_update_engine: Error in status update engine: 'OrderCategory'
+[2024-09-23T08:59:40.173Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T08:59:40.693Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:45.339Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:45.703Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:46.024Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:46.350Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:46.746Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:47.140Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:47.505Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:47.881Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:48.196Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:48.701Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:49.038Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:49.391Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-23T11:10:49.758Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T04:57:00.652Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/get-all-orders
+[2024-09-24T04:57:00.801Z] strategy_engine: No waiting strategies found
+[2024-09-24T04:57:01.947Z] strategy_engine: No waiting strategies found
+[2024-09-24T04:57:03.079Z] strategy_engine: No waiting strategies found
+[2024-09-24T04:57:04.172Z] strategy_engine: No waiting strategies found
+[2024-09-24T05:05:43.696Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/get-all-orders
+[2024-09-24T05:05:44.168Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:05:44.442Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:05:44.710Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:05:44.929Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:05:45.256Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:05:45.559Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:05:45.866Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:45.842Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/get-all-orders
+[2024-09-24T05:07:49.370Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:49.585Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:49.853Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:50.115Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:50.399Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:50.713Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:51.042Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:07:51.319Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:29.125Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/get-all-orders
+[2024-09-24T05:09:29.498Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:29.746Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:30.020Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:30.305Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:30.669Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:30.994Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:31.247Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:31.566Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:09:31.828Z] place_single_order: Failed to place order for buy. Response: {'status': 'failure', 'remarks': {'error_code': 'RS-9005', 'message': 'The token was expected to have 3 parts, but got 1.'}, 'data': ''}
+[2024-09-24T05:31:40.279Z] get_orders_from_api: Failed to get orders from API: 404 Client Error: Not Found for url: http://localhost:5000/python/get-all-orders
+[2024-09-24T05:31:40.808Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-24T05:31:40.848Z] Risk_management.py: book_profit_price for strategy 65: 25.35
+[2024-09-24T05:31:41.060Z] Risk_management.py: stop_loss_price for strategy 65: 24.650000000000002
+[2024-09-24T06:09:49.085Z] update_order_in_api: Failed to update order 9124092422966 in API: 500 Server Error: Internal Server Error for url: http://localhost:5000/python/orders/9124092422966
+[2024-09-24T06:13:14.514Z] update_order_in_api: Failed to update order 9124092422966 in API: 500 Server Error: Internal Server Error for url: http://localhost:5000/python/orders/9124092422966
+[2024-09-24T09:20:37.208Z] update_order_in_api: Failed to update order 9124092422966 in API: 500 Server Error: Internal Server Error for url: http://localhost:5000/python/orders/9124092422966
+[2024-09-24T09:28:11.354Z] Risk_management.py-place_book_profit_order: [object Object]
+[2024-09-24T09:28:11.440Z] Risk_management.py: book_profit_price for strategy 65: 25.35
+[2024-09-24T09:28:11.849Z] Risk_management.py: stop_loss_price for strategy 65: 24.650000000000002
