@@ -219,6 +219,23 @@ router.post('/proxy', async (req, res) => {
 });
 
 
+router.get('/download-log', (req, res) => {
+    const logFilePath = path.join(__dirname, 'error-log.log');
+
+    // Check if the log file exists
+    if (fs.existsSync(logFilePath)) {
+        res.download(logFilePath, 'error-log.log', (err) => {
+            if (err) {
+                console.error('Error downloading file:', err);
+                res.status(500).json({ message: 'Failed to download the log file.' });
+            }
+        });
+    } else {
+        res.status(404).json({ message: 'Log file not found.' });
+    }
+});
+
+
 // Log error API endpoint
 router.post('/log-error', (req, res) => {
     const { fileName, error } = req.body;
