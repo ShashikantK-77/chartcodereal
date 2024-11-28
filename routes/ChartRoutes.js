@@ -217,7 +217,28 @@ router.post('/proxy', async (req, res) => {
     }
 });
 
+
+app.post('/log-error', (req, res) => {
+    const { fileName, error } = req.body;
   
+    if (!fileName || !error) {
+        return res.status(400).json({ message: 'File name and error message are required.' });
+    }
+
+    // Get the current date-time
+    const dateTime = new Date().toISOString();
+    
+    // Format the log message
+    const logMessage = `${dateTime} - ${fileName} - ${error}\n`;
+
+    // Define the log file path
+    const logFilePath = path.join(__dirname, 'error-log.txt');
+  
+    // Append the error log to the file
+    fs.appendFile(logFilePath, logMessage, (err) => {
+        if (err) {
+            return res.status(500).json({ message: 'Failed to write to log file.' });
+        }
   // API endpoint
 router.post('/sym', async (req, res) => {
     console.log("in sym");
