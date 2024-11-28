@@ -1,58 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const IndicatorSetting = require('../dal/models/IndicatorSettingModel'); // Adjust the path as needed
+const filePath = 'D:/shashikant kamthe/2024/nov/27.11.24/Node Chart/routes/api-scrip-master.csv';
 
 
 
-// API to create new indicator settings
-// router.post('/indicator-settings', async (req, res) => {
-//     console.log("indicator-settings input:",req.body);
-    
-//     const { customEma, customSma } = req.body;
 
-//     try {
-//         const settings = [];
-
-//         if (customEma) {
-//             settings.push({
-//                 user_id: req.body.user_id, // Add user_id as needed
-//                 indicator_name: 'customEma',
-//                 parameter_name: 'enabled',
-//                 parameter_value: customEma.enabled.toString(), // Store as string
-//             });
-//             settings.push({
-//                 user_id: req.body.user_id,
-//                 indicator_name: 'customEma',
-//                 parameter_name: 'length',
-//                 parameter_value: customEma.length.toString(),
-//             });
-//         }
-
-//         if (customSma) {
-//             settings.push({
-//                 user_id: req.body.user_id,
-//                 indicator_name: 'customSma',
-//                 parameter_name: 'enabled',
-//                 parameter_value: customSma.enabled.toString(),
-//             });
-//             settings.push({
-//                 user_id: req.body.user_id,
-//                 indicator_name: 'customSma',
-//                 parameter_name: 'length',
-//                 parameter_value: customSma.length.toString(),
-//             });
-//         }
-
-//         // Bulk create settings
-//         const createdSettings = await IndicatorSetting.bulkCreate(settings);
-//         res.status(201).json(createdSettings);
-//     } catch (error) {
-//         console.error(error);
-//         res.status(500).json({ message: 'Failed to create indicator settings' });
-//     }
-// });
-
-
+const fs = require('fs');
+const csv = require('csv-parser');
+const fetch = require('node-fetch'); // Ensure `node-fetch` is installed or use the appropriate method for HTTP requests
 
 
 router.post('/indicator-settings', async (req, res) => {
@@ -105,20 +61,6 @@ const user_id = 2;
 });
 
 
-// API to get all indicator settings for a user
-// router.get('/indicator-settings/:userId', async (req, res) => {
-//     const { userId } = req.params;
-
-//     try {
-//         const settings = await IndicatorSetting.findAll({
-//             where: { user_id: userId }
-//         });
-//         res.status(200).json(settings);
-//     } catch (error) {
-//         console.error(error);
-//         res.status(500).json({ message: 'Failed to retrieve indicator settings' });
-//     }
-// });
 
 
 // API to get indicator settings based on user_id
@@ -169,6 +111,194 @@ router.get('/indicator-settings/:user_id', async (req, res) => {
         });
     }
 });
+
+
+
+
+router.get('/api/getProcessedData', (req, res) => {
+    const transformedData = {
+        Response: 'Success',
+        Type: 100,
+        Aggregated: false,
+        TimeTo: 1732280400,
+        TimeFrom: 1725080400,
+        ConversionType: {
+            type: 'force_direct',
+            conversionSymbol: ''
+        },
+        Data: [],
+        FirstValueInArray: true,
+        HasWarning: false,
+        RateLimit: {},
+    };
+
+    const newData = [
+        { time: 1725080400, close: 59408, high: 59533, low: 59408, open: 59533, volume: 100 },
+        { time: 1725084000, close: 59347, high: 59448, low: 59347, open: 59408, volume: 150 },
+        { time: 1725087600, close: 59273, high: 59368, low: 59252, open: 59347, volume: 200 },
+        { time: 1725091200, close: 59156, high: 59297, low: 59155, open: 59273, volume: 250 }
+    ];
+
+    transformedData.Data = newData.map(item => ({
+        time: item.time,
+        close: item.close,
+        high: item.high,
+        low: item.low,
+        open: item.open,
+        volume: item.volume,
+        start_Time: item.time,
+    }));
+
+    res.json(transformedData);
+});
+
+
+router.post('/proxy', async (req, res) => {
+    const { securityId, exchangeSegment, instrument } = req.body;
+
+    if (!securityId || !exchangeSegment || !instrument) {
+        return res.status(400).json({ message: 'Missing required parameters: securityId, exchangeSegment, or instrument' });
+    }
+
+    const bodyData = {
+        securityId,
+        exchangeSegment,
+        instrument,
+    };
+
+    const url = 'https://api.dhan.co/charts/intraday';
+    const headers = {
+        'access-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzM0ODQ3ODEwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTM0Mzg3MSJ9.4Vls2cZFfb9gtxIGHnRKrqzctT48s47IRpxknjy3o8baEnOShCVYWDvWQ5PUHj98AWdq62iI4vJK7mPNrZ3RZw',  // Replace with your actual access token
+        'Content-Type': 'application/json',
+    };
+
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers,
+            body: JSON.stringify(bodyData),
+        });
+
+        if (!response.ok) {
+            return res.status(response.status).json({ message: `Request failed with status: ${response.status}` });
+        }
+
+        const rawData = await response.json();
+        const processedData = rawData.open.slice(1).map((_, index) => ({
+            time: rawData.start_Time[index + 1],
+            close: rawData.close[index + 1],
+            high: rawData.high[index + 1],
+            low: rawData.low[index + 1],
+            open: rawData.open[index + 1],
+            volume: rawData.volume[index + 1],
+            start_Time: rawData.start_Time[index + 1],
+        }));
+
+        const transformedData = {
+            Response: 'Success',
+            Type: 100,
+            Aggregated: false,
+            TimeFrom: 1732605600,
+            TimeTo: 1732648800,
+            ConversionType: {
+                type: 'force_direct',
+                conversionSymbol: ''
+            },
+            Data: processedData,
+            FirstValueInArray: true,
+            HasWarning: false,
+            RateLimit: {},
+        };
+
+        res.json(transformedData);
+    } catch (error) {
+        console.error('Error forwarding request:', error);
+        res.status(500).json({ message: 'Internal Server Error' });
+    }
+});
+
+  
+  // API endpoint
+router.post('/sym', async (req, res) => {
+    console.log("in sym");
+    
+    const { exchange = 'BSE', segment = 'EQUITY' } = req.body || {}; // Default values if body is null or empty
+  
+    try {
+        const filePath = 'D:/shashikant kamthe/2024/nov/27.11.24/Node Chart/routes/api-scrip-master.csv';
+        // const filePath = path.join(__dirname, filePath);
+      const allSymbols = await getUniqueExchangesAndSymbols(filePath);
+  
+      // Filter symbols based on provided exchange and segment
+      const filteredSymbols = allSymbols.Data.filter(symbol =>
+        symbol.exchange === exchange && symbol.full_name.includes(segment) // Partial match for segment
+      );
+  
+      res.json({
+        success: true,
+        Data: filteredSymbols,
+      });
+    } catch (error) {
+      res.status(500).json({
+        error: 'Failed to read or parse CSV fileeeee',
+        details: error.message,
+      });
+    }
+  });
+
+
+async function getUniqueExchangesAndSymbols(filePath) {
+    return new Promise((resolve, reject) => {
+      const symbols = [];
+  
+      fs.createReadStream(filePath)
+        .pipe(csv())
+        .on('data', (row) => {
+          if (row.SEM_EXM_EXCH_ID && row.SM_SYMBOL_NAME && row.SEM_INSTRUMENT_NAME) {
+            const symbolObject = {
+              exchange: row.SEM_EXM_EXCH_ID.trim(),
+              symbol: row.SM_SYMBOL_NAME.trim(),
+              full_name: row.SEM_INSTRUMENT_NAME.trim(),
+              type: row.SEM_SEGMENT === 'E' ? 'equity' : 'other',
+              strike_price: row.SEM_STRIKE_PRICE || null,
+              expiry_date: row.SEM_EXPIRY_DATE || null,
+              lot_size: row.SEM_LOT_UNITS || 1,
+              segment: row.SEM_SEGMENT,
+              instrument_type: row.SEM_EXCH_INSTRUMENT_TYPE,
+              SECURITY_ID: row.SEM_SMST_SECURITY_ID,
+            };
+            symbols.push(symbolObject);
+          }
+        })
+        .on('end', () => {
+          resolve({
+            success: true,
+            Data: symbols,
+          });
+        })
+        .on('error', (error) => reject(error));
+    });
+  }
+
+function processCSV(filePath) {
+    return new Promise((resolve, reject) => {
+        const result = {};
+
+        fs.createReadStream(filePath)
+            .pipe(csv())
+            .on('data', (row) => {
+                const exchange = row.SEM_TRADING_SYMBOL.split('-')[0];
+                const symbol = row.SEM_TRADING_SYMBOL.split('-')[1];
+
+                if (!result[exchange]) {
+                    result[exchange] = [];
+                }
+                result[exchange].push(symbol);
+            })
+            .on('end', () => resolve(result))
+            .on('error', (error) => reject(error));
+    });
+}
 
 
 module.exports = router;
