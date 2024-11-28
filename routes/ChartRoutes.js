@@ -1,3 +1,4 @@
+
 const express = require('express');
 const router = express.Router();
 const IndicatorSetting = require('../dal/models/IndicatorSettingModel'); // Adjust the path as needed
@@ -218,6 +219,7 @@ router.post('/proxy', async (req, res) => {
 });
 
 
+// Log error API endpoint
 router.post('/log-error', (req, res) => {
     const { fileName, error } = req.body;
   
@@ -232,13 +234,17 @@ router.post('/log-error', (req, res) => {
     const logMessage = `${dateTime} - ${fileName} - ${error}\n`;
 
     // Define the log file path
-    const logFilePath = path.join(__dirname, 'error-log.txt');
+    const logFilePath = path.join(__dirname, 'error-log.log');
   
     // Append the error log to the file
     fs.appendFile(logFilePath, logMessage, (err) => {
         if (err) {
             return res.status(500).json({ message: 'Failed to write to log file.' });
         }
+        res.status(200).json({ message: 'Error logged successfully.' });
+    });
+});
+
   // API endpoint
 router.post('/sym', async (req, res) => {
     console.log("in sym");
