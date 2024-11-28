@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // const express = require('express');
 // const router = express.Router();
 // const IndicatorSetting = require('../dal/models/IndicatorSettingModel'); // Adjust the path as needed
@@ -302,6 +303,8 @@
 
 
 // module.exports = router;
+=======
+>>>>>>> 66d4c9c2669bd6f709baee32d068311f627731dd
 
 const express = require('express');
 const router = express.Router();
@@ -523,6 +526,35 @@ router.post('/proxy', async (req, res) => {
 });
 
 
+<<<<<<< HEAD
+=======
+
+
+// Download log file endpoint
+router.get('/download-log', (req, res) => {
+    const logFilePath = path.join(__dirname, 'error-log.log');  // Ensure this path is correct
+
+    // Log the path for debugging
+    console.log('Looking for log file at:', logFilePath);
+
+    // Check if the log file exists
+    fs.access(logFilePath, fs.constants.F_OK, (err) => {
+        if (err) {
+            console.error('Log file not found:', err);
+            return res.status(404).json({ message: 'Log file not found.' });
+        }
+
+        // If the file exists, initiate the download
+        res.download(logFilePath, 'error-log.log', (err) => {
+            if (err) {
+                console.error('Error downloading file:', err);
+                res.status(500).json({ message: 'Failed to download the log file.' });
+            }
+        });
+    });
+});
+
+>>>>>>> 66d4c9c2669bd6f709baee32d068311f627731dd
 // Log error API endpoint
 router.post('/log-error', (req, res) => {
     const { fileName, error } = req.body;
@@ -549,6 +581,7 @@ router.post('/log-error', (req, res) => {
     });
 });
 
+<<<<<<< HEAD
 
 // Download log file endpoint
 router.get('/download-log', (req, res) => {
@@ -573,6 +606,8 @@ router.get('/download-log', (req, res) => {
         });
     });
 });
+=======
+>>>>>>> 66d4c9c2669bd6f709baee32d068311f627731dd
   // API endpoint
 router.post('/sym', async (req, res) => {
     console.log("in sym");
