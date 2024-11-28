@@ -219,9 +219,9 @@ router.post('/proxy', async (req, res) => {
 });
 
 
-const fs = require('fs');
-const path = require('path');
 
+
+// Download log file endpoint
 router.get('/download-log', (req, res) => {
     const logFilePath = path.join(__dirname, 'error-log.log');  // Ensure this path is correct
 
@@ -244,9 +244,6 @@ router.get('/download-log', (req, res) => {
         });
     });
 });
-
-
-
 
 // Log error API endpoint
 router.post('/log-error', (req, res) => {
