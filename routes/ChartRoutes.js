@@ -225,7 +225,7 @@ router.post('/sym', async (req, res) => {
     const { exchange = 'BSE', segment = 'EQUITY' } = req.body || {}; // Default values if body is null or empty
   
     try {
-        const filePath = '/api-scrip-master.csv';
+    const filePath = path.join(__dirname, 'api-scrip-master.csv'); // Get the absolute path to the CSV file
         // const filePath = path.join(__dirname, filePath);
       const allSymbols = await getUniqueExchangesAndSymbols(filePath);
   
