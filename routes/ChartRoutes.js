@@ -5,7 +5,7 @@ const filePath = 'D:/shashikant kamthe/2024/nov/27.11.24/Node Chart/routes/api-s
 
 
 
-
+const path = require('path'); // Import the path moduley
 const fs = require('fs');
 const csv = require('csv-parser');
 const fetch = require('node-fetch'); // Ensure `node-fetch` is installed or use the appropriate method for HTTP requests
