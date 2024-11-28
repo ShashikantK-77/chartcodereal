@@ -218,7 +218,7 @@ router.post('/proxy', async (req, res) => {
 });
 
 
-app.post('/log-error', (req, res) => {
+router.post('/log-error', (req, res) => {
     const { fileName, error } = req.body;
   
     if (!fileName || !error) {
