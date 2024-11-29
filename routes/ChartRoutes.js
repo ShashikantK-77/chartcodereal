@@ -526,9 +526,6 @@ router.post('/proxy', async (req, res) => {
 });
 
 
-<<<<<<< HEAD
-=======
-
 
 // Download log file endpoint
 router.get('/download-log', (req, res) => {
@@ -554,7 +551,7 @@ router.get('/download-log', (req, res) => {
     });
 });
 
->>>>>>> 66d4c9c2669bd6f709baee32d068311f627731dd
+
 // Log error API endpoint
 router.post('/log-error', (req, res) => {
     const { fileName, error } = req.body;
@@ -581,7 +578,6 @@ router.post('/log-error', (req, res) => {
     });
 });
 
-<<<<<<< HEAD
 
 // Download log file endpoint
 router.get('/download-log', (req, res) => {
@@ -606,8 +602,6 @@ router.get('/download-log', (req, res) => {
         });
     });
 });
-=======
->>>>>>> 66d4c9c2669bd6f709baee32d068311f627731dd
   // API endpoint
 router.post('/sym', async (req, res) => {
     console.log("in sym");
