@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // const express = require('express');
 // const router = express.Router();
 // const IndicatorSetting = require('../dal/models/IndicatorSettingModel'); // Adjust the path as needed
@@ -303,13 +302,12 @@
 
 
 // module.exports = router;
-=======
->>>>>>> 66d4c9c2669bd6f709baee32d068311f627731dd
 
 const express = require('express');
 const router = express.Router();
 const IndicatorSetting = require('../dal/models/IndicatorSettingModel'); // Adjust the path as needed
-const filePath = 'D:/shashikant kamthe/2024/nov/27.11.24/Node Chart/routes/api-scrip-master.csv';
+const { Worker } = require('worker_threads');
+const fastCsv = require('fast-csv');
 
 
 
@@ -604,8 +602,7 @@ router.get('/download-log', (req, res) => {
 });
   // API endpoint
 router.post('/sym', async (req, res) => {
-    console.log("in sym");
-    
+
     const { exchange = 'BSE', segment = 'EQUITY' } = req.body || {}; // Default values if body is null or empty
   
     try {
@@ -631,38 +628,71 @@ router.post('/sym', async (req, res) => {
   });
 
 
-async function getUniqueExchangesAndSymbols(filePath) {
-    return new Promise((resolve, reject) => {
-      const symbols = [];
+// async function getUniqueExchangesAndSymbols(filePath) {
+//     return new Promise((resolve, reject) => {
+//       const symbols = [];
   
-      fs.createReadStream(filePath)
-        .pipe(csv())
-        .on('data', (row) => {
-          if (row.SEM_EXM_EXCH_ID && row.SM_SYMBOL_NAME && row.SEM_INSTRUMENT_NAME) {
-            const symbolObject = {
-              exchange: row.SEM_EXM_EXCH_ID.trim(),
-              symbol: row.SM_SYMBOL_NAME.trim(),
-              full_name: row.SEM_INSTRUMENT_NAME.trim(),
-              type: row.SEM_SEGMENT === 'E' ? 'equity' : 'other',
-              strike_price: row.SEM_STRIKE_PRICE || null,
-              expiry_date: row.SEM_EXPIRY_DATE || null,
-              lot_size: row.SEM_LOT_UNITS || 1,
-              segment: row.SEM_SEGMENT,
-              instrument_type: row.SEM_EXCH_INSTRUMENT_TYPE,
-              SECURITY_ID: row.SEM_SMST_SECURITY_ID,
-            };
-            symbols.push(symbolObject);
-          }
-        })
-        .on('end', () => {
-          resolve({
-            success: true,
-            Data: symbols,
-          });
-        })
-        .on('error', (error) => reject(error));
+//       fs.createReadStream(filePath)
+//         .pipe(csv())
+//         .on('data', (row) => {
+//           if (row.SEM_EXM_EXCH_ID && row.SM_SYMBOL_NAME && row.SEM_INSTRUMENT_NAME) {
+//             const symbolObject = {
+//               exchange: row.SEM_EXM_EXCH_ID.trim(),
+//               symbol: row.SM_SYMBOL_NAME.trim(),
+//               full_name: row.SEM_INSTRUMENT_NAME.trim(),
+//               type: row.SEM_SEGMENT === 'E' ? 'equity' : 'other',
+//               strike_price: row.SEM_STRIKE_PRICE || null,
+//               expiry_date: row.SEM_EXPIRY_DATE || null,
+//               lot_size: row.SEM_LOT_UNITS || 1,
+//               segment: row.SEM_SEGMENT,
+//               instrument_type: row.SEM_EXCH_INSTRUMENT_TYPE,
+//               SECURITY_ID: row.SEM_SMST_SECURITY_ID,
+//             };
+//             symbols.push(symbolObject);
+//           }
+//         })
+//         .on('end', () => {
+//           resolve({
+//             success: true,
+//             Data: symbols,
+//           });
+//         })
+//         .on('error', (error) => reject(error));
+//     });
+//   }
+
+function parseCsvInWorker(filePath) {
+    return new Promise((resolve, reject) => {
+      const worker = new Worker('./csvWorker.js', {
+        workerData: { filePath },
+      });
+  
+      worker.on('message', (data) => {
+        resolve(data); // Receive the processed symbols
+      });
+  
+      worker.on('error', (err) => {
+        reject(err);
+      });
+  
+      worker.on('exit', (code) => {
+        if (code !== 0) {
+          reject(new Error(`Worker stopped with exit code ${code}`));
+        }
+      });
     });
   }
+  
+  // Main function
+  async function getUniqueExchangesAndSymbols(filePath) {
+    try {
+      const result = await parseCsvInWorker(filePath);
+      return { success: true, Data: result };
+    } catch (error) {
+      return { success: false, error: error.message };
+    }
+  }
+  
 
 function processCSV(filePath) {
     return new Promise((resolve, reject) => {
