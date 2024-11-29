@@ -628,70 +628,70 @@ router.post('/sym', async (req, res) => {
   });
 
 
-// async function getUniqueExchangesAndSymbols(filePath) {
-//     return new Promise((resolve, reject) => {
-//       const symbols = [];
-  
-//       fs.createReadStream(filePath)
-//         .pipe(csv())
-//         .on('data', (row) => {
-//           if (row.SEM_EXM_EXCH_ID && row.SM_SYMBOL_NAME && row.SEM_INSTRUMENT_NAME) {
-//             const symbolObject = {
-//               exchange: row.SEM_EXM_EXCH_ID.trim(),
-//               symbol: row.SM_SYMBOL_NAME.trim(),
-//               full_name: row.SEM_INSTRUMENT_NAME.trim(),
-//               type: row.SEM_SEGMENT === 'E' ? 'equity' : 'other',
-//               strike_price: row.SEM_STRIKE_PRICE || null,
-//               expiry_date: row.SEM_EXPIRY_DATE || null,
-//               lot_size: row.SEM_LOT_UNITS || 1,
-//               segment: row.SEM_SEGMENT,
-//               instrument_type: row.SEM_EXCH_INSTRUMENT_TYPE,
-//               SECURITY_ID: row.SEM_SMST_SECURITY_ID,
-//             };
-//             symbols.push(symbolObject);
-//           }
-//         })
-//         .on('end', () => {
-//           resolve({
-//             success: true,
-//             Data: symbols,
-//           });
-//         })
-//         .on('error', (error) => reject(error));
-//     });
-//   }
-
-function parseCsvInWorker(filePath) {
+async function getUniqueExchangesAndSymbols(filePath) {
     return new Promise((resolve, reject) => {
-      const worker = new Worker('./csvWorker.js', {
-        workerData: { filePath },
-      });
+      const symbols = [];
   
-      worker.on('message', (data) => {
-        resolve(data); // Receive the processed symbols
-      });
-  
-      worker.on('error', (err) => {
-        reject(err);
-      });
-  
-      worker.on('exit', (code) => {
-        if (code !== 0) {
-          reject(new Error(`Worker stopped with exit code ${code}`));
-        }
-      });
+      fs.createReadStream(filePath)
+        .pipe(csv())
+        .on('data', (row) => {
+          if (row.SEM_EXM_EXCH_ID && row.SM_SYMBOL_NAME && row.SEM_INSTRUMENT_NAME) {
+            const symbolObject = {
+              exchange: row.SEM_EXM_EXCH_ID.trim(),
+              symbol: row.SM_SYMBOL_NAME.trim(),
+              full_name: row.SEM_INSTRUMENT_NAME.trim(),
+              type: row.SEM_SEGMENT === 'E' ? 'equity' : 'other',
+              strike_price: row.SEM_STRIKE_PRICE || null,
+              expiry_date: row.SEM_EXPIRY_DATE || null,
+              lot_size: row.SEM_LOT_UNITS || 1,
+              segment: row.SEM_SEGMENT,
+              instrument_type: row.SEM_EXCH_INSTRUMENT_TYPE,
+              SECURITY_ID: row.SEM_SMST_SECURITY_ID,
+            };
+            symbols.push(symbolObject);
+          }
+        })
+        .on('end', () => {
+          resolve({
+            success: true,
+            Data: symbols,
+          });
+        })
+        .on('error', (error) => reject(error));
     });
   }
+
+// function parseCsvInWorker(filePath) {
+//     return new Promise((resolve, reject) => {
+//       const worker = new Worker('./csvWorker.js', {
+//         workerData: { filePath },
+//       });
   
-  // Main function
-  async function getUniqueExchangesAndSymbols(filePath) {
-    try {
-      const result = await parseCsvInWorker(filePath);
-      return { success: true, Data: result };
-    } catch (error) {
-      return { success: false, error: error.message };
-    }
-  }
+//       worker.on('message', (data) => {
+//         resolve(data); // Receive the processed symbols
+//       });
+  
+//       worker.on('error', (err) => {
+//         reject(err);
+//       });
+  
+//       worker.on('exit', (code) => {
+//         if (code !== 0) {
+//           reject(new Error(`Worker stopped with exit code ${code}`));
+//         }
+//       });
+//     });
+//   }
+  
+//   // Main function
+//   async function getUniqueExchangesAndSymbols(filePath) {
+//     try {
+//       const result = await parseCsvInWorker(filePath);
+//       return { success: true, Data: result };
+//     } catch (error) {
+//       return { success: false, error: error.message };
+//     }
+//   }
   
 
 function processCSV(filePath) {
