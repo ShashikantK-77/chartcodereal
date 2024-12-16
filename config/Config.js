@@ -39,6 +39,34 @@ require('dotenv').config();
 
 
 
+// const { Sequelize } = require('sequelize');
+
+// const sequelize = new Sequelize(process.env.DATABASE, process.env.USER, process.env.PASSWORD, {
+//   host: process.env.HOST,
+//   dialect: 'postgres',
+//   port: process.env.PGPORT,
+//   ssl: {
+//     require: false, // Adjust based on your needs
+//     rejectUnauthorized: false
+//   }
+
+//   // dialectOptions: {
+//   //   ssl: false,  // Disable SSL
+//   // },
+
+// });
+
+// sequelize.authenticate()
+//   .then(() => {
+//     console.log('Connection established successfully.');
+//   })
+//   .catch((err) => {
+//     console.error('Unable to connect to the database:', err);
+//   });
+
+
+
+
 const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(process.env.DATABASE, process.env.USER, process.env.PASSWORD, {
@@ -49,11 +77,6 @@ const sequelize = new Sequelize(process.env.DATABASE, process.env.USER, process.
     require: false, // Adjust based on your needs
     rejectUnauthorized: false
   }
-
-  // dialectOptions: {
-  //   ssl: false,  // Disable SSL
-  // },
-
 });
 
 sequelize.authenticate()
