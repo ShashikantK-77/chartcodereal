@@ -74,10 +74,10 @@ const sequelize = new Sequelize(
     port: process.env.PGPORT,
     dialect: 'postgres',
     dialectOptions: {
-      // ssl: {
-      //   require: false,
-      //   rejectUnauthorized: false, // Set to true if you have a valid SSL certificate
-      // },
+      ssl: {
+        require: false,
+        rejectUnauthorized: false, // Set to true if you have a valid SSL certificate
+      },
     },
     pool: {
       idleTimeoutMillis: 30000,  // Increase this value to 30 seconds (default is 10000ms)
