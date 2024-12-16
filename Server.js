@@ -12,6 +12,7 @@ const {jwtDecode} = require('jwt-decode');
 const jwt = require('jsonwebtoken'); // Import jsonwebtoken for verification
 
 app.use(cors());
+app.use(express.json());
 
 
 

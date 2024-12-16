@@ -36,8 +36,8 @@ const dummyResponse = {
 router.post('/indicator-settings', async (req, res) => {
     console.log("indicator-settings input:", req.body);
 
-    const {  conditions } = req.body;  // Extract user_id and conditions from the body
-const user_id = 2;
+    const {  conditions,user_id } = req.body;  // Extract user_id and conditions from the body
+
     try {
         // Initialize an empty array to hold the settings data to be saved
         const settings = [];
@@ -133,6 +133,54 @@ router.get('/indicator-settings/:user_id', async (req, res) => {
         });
     }
 });
+router.delete('/indicator-settings/:user_id', async (req, res) => {
+    const { user_id } = req.params;
+    const { indicator_name } = req.body;
+
+    if (!indicator_name) {
+        return res.status(400).json({
+            message: 'Indicator name is required.',
+        });
+    }
+
+    try {
+        // Find all indicator settings for the given user_id and indicator_name
+        const indicatorSettings = await IndicatorSetting.findAll({
+            where: {
+                user_id: user_id,
+                indicator_name: indicator_name,
+            },
+        });
+
+        // If no settings were found, return an error
+        if (indicatorSettings.length === 0) {
+            return res.status(404).json({
+                message: 'No indicator settings found for this indicator name.',
+            });
+        }
+
+        // Delete all the found indicator settings
+        await IndicatorSetting.destroy({
+            where: {
+                user_id: user_id,
+                indicator_name: indicator_name,
+            },
+        });
+
+        // Return success message
+        res.status(200).json({
+            message: 'All indicator settings for this indicator name have been deleted successfully.',
+        });
+
+    } catch (error) {
+        console.error('Error deleting indicator settings:', error);
+        res.status(500).json({
+            message: 'Failed to delete indicator settings',
+            error: error.message,
+        });
+    }
+});
+
 
 
 
@@ -246,193 +294,185 @@ router.post('/proxy', async (req, res) => {
 
 
 
-// Download log file endpoint
-
-// router.post('/proxy', async (req, res) => {
-//     console.log("In proxy");
-
-//     // Extract required parameters from request body
-//     const { securityId, exchangeSegment, instrument } = req.body;
-
-//     if (!securityId || !exchangeSegment || !instrument) {
-//         return res.status(400).json({ message: 'Missing required parameters: securityId, exchangeSegment, or instrument' });
-//     }
-
-//     const bodyData = {
-//         securityId,
-//         exchangeSegment,
-//         instrument,
-//     };
-
-//     console.log("Proxy request body data:", bodyData);
-
-//     // API URL and headers (use environment variables for sensitive data like the token)
-//     const url = 'https://api.dhan.co/charts/intraday';
-//     const headers = {
-//         'access-token': process.env.ACCESS_TOKEN, // Use environment variable for token
-//         'Content-Type': 'application/json',
-//     };
-
-//     try {
-//         // Make the API request
-//         const response = await fetch(url, {
-//             method: 'POST',
-//             headers,
-//             body: JSON.stringify(bodyData),
-//         });
-
-//         // Handle rate-limiting (429 Too Many Requests)
-//         // if (response.status === 429) {
-//         //     console.error('Rate limit exceeded. Retrying...');
-//         //     const retryAfter = response.headers.get('Retry-After') || 10; // Default to 10 seconds
-//         //     return setTimeout(() => {
-//         //         // Retry logic can be added here (e.g., make the request again after the delay)
-//         //         res.status(429).json({ message: `Rate limit exceeded. Try again after ${retryAfter} seconds.` });
-//         //     }, retryAfter * 5000);
-//         // }
-
-//         // // If the response is not OK, return the status code and message
-//         // if (!response.ok) {
-//         //     return res.status(response.status).json({ message: `Request failed with status: ${response.status}` });
-//         // }
-
-//         // Parse the raw response data
-//         const rawData = await response.json();
-//         // const rawData = await dummyResponse.json();
-//         console.log("Raw data from API:", rawData);
-
-//         // Process and transform the data into the required format
-//         const processedData = transformData(rawData);
-
-//         // Send the transformed data in the response
-//         const transformedData = {
-//             Response: 'Success',
-//             Type: 100,
-//             Aggregated: false,
-//             TimeFrom: 1732605600,
-//             TimeTo: 1732648800,
-//             ConversionType: {
-//                 type: 'force_direct',
-//                 conversionSymbol: ''
-//             },
-//             Data: processedData,
-//             FirstValueInArray: true,
-//             HasWarning: false,
-//             RateLimit: {},
-//         };
-
-//         res.json(transformedData);
-//     } catch (error) {
-//         console.error('Error forwarding request:', error);
-//         res.status(500).json({ message: 'Internal Server Error' });
-//     }
-// });
-
-
-// router.post('/proxy', async (req, res) => {
-//     console.log("In proxy");
-
-//     // Extract required parameters from request body
-//     const { securityId, exchangeSegment, instrument } = req.body;
-
-//     if (!securityId || !exchangeSegment || !instrument) {
-//         return res.status(400).json({ message: 'Missing required parameters: securityId, exchangeSegment, or instrument' });
-//     }
-
-//     const bodyData = {
-//         securityId,
-//         exchangeSegment,
-//         instrument,
-//     };
-
-//     console.log("Proxy request body data:", bodyData);
-
-//     const getRandomNumberInRange = (min, max) => {
-//         return (Math.random() * (max - min)) + min;
-//     }
-
-//     // Generate random data for the dummy response, each item in the array will represent a bar
-// // Generate random data for the dummy response, each item in the array will represent a bar
-// const generateRandomData = (size = 100) => {
-//     const bars = [];
-//     let lastTime = Math.floor(Date.now() / 1000); // Set the last time as the current time in seconds
+router.post('/histproxy', async (req, res) => {
+    console.log("in histproxy");
     
-//     // Ensure lastTime is a valid number
-//     if (isNaN(lastTime)) {
-//         console.error('Invalid timestamp value');
-//         lastTime = Math.floor(Date.now() / 1000); // Recalculate in case of invalid timestamp
-//     }
+    const { symbol, exchangeSegment, instrument,expiryCode,fromDate,toDate } = req.body;
 
-//     for (let i = 0; i < size; i++) {
-//         lastTime += Math.floor(Math.random() * 100); // Add random seconds to generate unique timestamps
+    // if (!symbol || !exchangeSegment || !instrument || !expiryCode || !fromDate || !toDate ) {
+    //     return res.status(400).json({ message: 'Missing required parameters: securityId, exchangeSegment, or instrument' });
+    // }
 
-//         // Ensure the timestamp is valid
-//         if (isNaN(lastTime)) {
-//             console.error('Invalid timestamp during iteration', i);
-//             lastTime = Math.floor(Date.now() / 1000); // Recalculate in case of invalid timestamp
-//         }
-
-//         bars.push({
-//             open: getRandomNumberInRange(100, 200), // Random open prices between 100 and 200
-//             high: getRandomNumberInRange(200, 250), // Random high prices between 200 and 250
-//             low: getRandomNumberInRange(50, 100),   // Random low prices between 50 and 100
-//             close: getRandomNumberInRange(100, 200), // Random close prices between 100 and 200
-//             volume: getRandomNumberInRange(1000, 10000), // Random volume between 1000 and 10000
-//             start_Time: lastTime // Use the lastTime as the timestamp for the bar
-//         });
-//     }
-
-//     return {
-//         open: bars.map(bar => bar.open),
-//         high: bars.map(bar => bar.high),
-//         low: bars.map(bar => bar.low),
-//         close: bars.map(bar => bar.close),
-//         volume: bars.map(bar => bar.volume),
-//         start_Time: bars.map(bar => bar.start_Time)
-//     };
-// };
+    const bodyData = {
+        symbol,
+        exchangeSegment,
+        instrument,
+        expiryCode,
+        fromDate,
+        toDate
+    };
 
 
 
-//     // Dummy response with random data
-//     const dummyResponse = generateRandomData();
 
-//     // Simple transformData function
-//     function transformData(rawData) {
-//         // You can modify this if needed, for now, we return the raw data as is
-//         return rawData;
-//     }
 
-//     try {
-//         console.log("Using dummy response as fallback...");
+    console.log("in proxy bodyData:",bodyData);
+    
 
-//         // Process and transform the dummy data
-//         const processedData = transformData(dummyResponse);
+    const url = 'https://api.dhan.co/charts/historical';
+    const headers = {
+        'access-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzM0ODQ3ODEwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTM0Mzg3MSJ9.4Vls2cZFfb9gtxIGHnRKrqzctT48s47IRpxknjy3o8baEnOShCVYWDvWQ5PUHj98AWdq62iI4vJK7mPNrZ3RZw',  // Replace with your actual access token
+        'Content-Type': 'application/json',
+    };
 
-//         // Prepare the response object
-//         const transformedData = {
-//             Response: 'Success',
-//             Type: 100,
-//             Aggregated: false,
-//             TimeFrom: 1732605600,
-//             TimeTo: 1732648800,
-//             ConversionType: {
-//                 type: 'force_direct',
-//                 conversionSymbol: ''
-//             },
-//             Data: processedData,
-//             FirstValueInArray: true,
-//             HasWarning: false,
-//             RateLimit: {},
-//         };
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers,
+            body: JSON.stringify(bodyData),
+        });
 
-//         // Send the transformed data as the response
-//         res.json(transformedData);
-//     } catch (error) {
-//         console.error('Error processing dummy response:', error);
-//         res.status(500).json({ message: 'Internal Server Error' });
-//     }
-// });
+        if (!response.ok) {
+            return res.status(response.status).json({ message: `Request failed with status: ${response.status}` });
+        }
+
+        const rawData = await response.json();
+        const processedData = rawData.open.slice(1).map((_, index) => ({
+            time: rawData.start_Time[index + 1],
+            close: rawData.close[index + 1],
+            high: rawData.high[index + 1],
+            low: rawData.low[index + 1],
+            open: rawData.open[index + 1],
+            volume: rawData.volume[index + 1],
+            start_Time: rawData.start_Time[index + 1],
+        }));
+
+        const transformedData = {
+            Response: 'Success',
+            Type: 100,
+            Aggregated: false,
+            TimeFrom: rawData.TimeFrom,
+            TimeTo: rawData.TimeTo,
+            ConversionType: {
+                type: 'force_direct',
+                conversionSymbol: ''
+            },
+            Data: processedData,
+            FirstValueInArray: true,
+            HasWarning: false,
+            RateLimit: {},
+        };
+
+        res.json(transformedData);
+    } catch (error) {
+        console.error('Error forwarding request:', error);
+        res.status(500).json({ message: 'Internal Server Error' });
+    }
+});
+
+
+router.post('/data', async (req, res) => {
+    console.log("In combined data API");
+
+    const { symbol, exchangeSegment, instrument, expiryCode, fromDate, toDate, securityId } = req.body;
+
+    if (!exchangeSegment || !instrument) {
+        return res.status(400).json({ message: 'Missing required parameters: exchangeSegment or instrument' });
+    }
+
+    // Initialize bodyData for both API calls
+    const historicalBodyData = {
+        symbol,
+        exchangeSegment,
+        instrument,
+        expiryCode,
+        fromDate,
+        toDate,
+    };
+
+    const intradayBodyData = {
+        securityId,
+        exchangeSegment,
+        instrument,
+    };
+
+    // API URLs
+    const historicalUrl = 'https://api.dhan.co/charts/historical';
+    const intradayUrl = 'https://api.dhan.co/charts/intraday';
+
+    const headers = {
+        'access-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzM0ODQ3ODEwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTM0Mzg3MSJ9.4Vls2cZFfb9gtxIGHnRKrqzctT48s47IRpxknjy3o8baEnOShCVYWDvWQ5PUHj98AWdq62iI4vJK7mPNrZ3RZw',
+        'Content-Type': 'application/json',
+    };
+
+    try {
+        // Fetch both historical and intraday data concurrently
+        const [historicalResponse, intradayResponse] = await Promise.all([
+            fetch(historicalUrl, {
+                method: 'POST',
+                headers,
+                body: JSON.stringify(historicalBodyData),
+            }),
+            fetch(intradayUrl, {
+                method: 'POST',
+                headers,
+                body: JSON.stringify(intradayBodyData),
+            })
+        ]);
+
+        // Check for failure in either response
+        if (!historicalResponse.ok || !intradayResponse.ok) {
+            return res.status(500).json({ message: 'Request failed for one or both APIs' });
+        }
+
+        // Process historical data
+        const historicalData = await historicalResponse.json();
+        const processedHistoricalData = historicalData.open.slice(1).map((_, index) => ({
+            time: historicalData.start_Time[index + 1],
+            close: historicalData.close[index + 1],
+            high: historicalData.high[index + 1],
+            low: historicalData.low[index + 1],
+            open: historicalData.open[index + 1],
+            volume: historicalData.volume[index + 1],
+            start_Time: historicalData.start_Time[index + 1],
+        }));
+
+        // Process intraday data
+        const intradayData = await intradayResponse.json();
+        const processedIntradayData = intradayData.open.slice(1).map((_, index) => ({
+            time: intradayData.start_Time[index + 1],
+            close: intradayData.close[index + 1],
+            high: intradayData.high[index + 1],
+            low: intradayData.low[index + 1],
+            open: intradayData.open[index + 1],
+            volume: intradayData.volume[index + 1],
+            start_Time: intradayData.start_Time[index + 1],
+        }));
+
+        // Combine both datasets
+        const combinedHistoricalData = [...processedHistoricalData, ...processedIntradayData];
+
+        // Send combined response
+        res.json({
+            Response: 'Success',
+            Type: 100,
+            Aggregated: false,
+            Data: {
+                historical: combinedHistoricalData,
+            },
+            FirstValueInArray: true,
+            HasWarning: false,
+            RateLimit: {},
+        });
+    } catch (error) {
+        console.error('Error forwarding request:', error);
+        res.status(500).json({ message: 'Internal Server Error' });
+    }
+});
+
+
+
+
 
 
 router.get('/download-log', (req, res) => {
@@ -513,6 +553,7 @@ router.get('/download-log', (req, res) => {
 router.post('/sym', async (req, res) => {
 
     const { exchange = 'BSE', segment = 'EQUITY' } = req.body || {}; // Default values if body is null or empty
+  console.log("exchange,segment:",exchange,segment);
   
     try {
     const filePath = path.join(__dirname, 'api-scrip-master.csv'); // Get the absolute path to the CSV file
@@ -548,6 +589,7 @@ async function getUniqueExchangesAndSymbols(filePath) {
             const symbolObject = {
               exchange: row.SEM_EXM_EXCH_ID.trim(),
               symbol: row.SM_SYMBOL_NAME.trim(),
+              tradingsymbol:row.SEM_TRADING_SYMBOL.trim(),
               full_name: row.SEM_INSTRUMENT_NAME.trim(),
               type: row.SEM_SEGMENT === 'E' ? 'equity' : 'other',
               strike_price: row.SEM_STRIKE_PRICE || null,
@@ -570,37 +612,7 @@ async function getUniqueExchangesAndSymbols(filePath) {
     });
   }
 
-// function parseCsvInWorker(filePath) {
-//     return new Promise((resolve, reject) => {
-//       const worker = new Worker('./csvWorker.js', {
-//         workerData: { filePath },
-//       });
-  
-//       worker.on('message', (data) => {
-//         resolve(data); // Receive the processed symbols
-//       });
-  
-//       worker.on('error', (err) => {
-//         reject(err);
-//       });
-  
-//       worker.on('exit', (code) => {
-//         if (code !== 0) {
-//           reject(new Error(`Worker stopped with exit code ${code}`));
-//         }
-//       });
-//     });
-//   }
-  
-//   // Main function
-//   async function getUniqueExchangesAndSymbols(filePath) {
-//     try {
-//       const result = await parseCsvInWorker(filePath);
-//       return { success: true, Data: result };
-//     } catch (error) {
-//       return { success: false, error: error.message };
-//     }
-//   }
+
   
 
 function processCSV(filePath) {

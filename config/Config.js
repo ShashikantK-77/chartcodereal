@@ -49,6 +49,11 @@ const sequelize = new Sequelize(process.env.DATABASE, process.env.USER, process.
     require: false, // Adjust based on your needs
     rejectUnauthorized: false
   }
+
+  // dialectOptions: {
+  //   ssl: false,  // Disable SSL
+  // },
+
 });
 
 sequelize.authenticate()

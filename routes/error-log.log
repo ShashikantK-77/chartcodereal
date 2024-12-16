@@ -28,3 +28,125 @@
 2024-12-02T06:05:17.105Z - datafeed.js - Cannot read properties of null (reading 'exchange')
 2024-12-02T06:06:24.405Z - datafeed.js - Cannot read properties of null (reading 'exchange')
 2024-12-02T06:25:56.003Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-02T06:49:24.412Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-02T06:49:37.906Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-02T06:49:52.690Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-02T09:52:28.892Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T05:34:45.268Z - datafeed.js - Invalid time value
+2024-12-03T05:36:44.885Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T05:37:23.233Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T05:38:10.546Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T05:41:45.683Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T05:42:18.469Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T05:49:36.322Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T05:51:06.882Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-03T06:30:49.039Z - datafeed.js - Ticker is not defined
+2024-12-03T06:33:30.971Z - datafeed.js - Ticker is not defined
+2024-12-03T06:44:59.826Z - datafeed.js - Ticker is not defined
+2024-12-03T06:48:41.575Z - datafeed.js - Failed to fetch
+2024-12-03T17:13:33.845Z - datafeed.js - Cannot access 'dhanFeed' before initialization
+2024-12-03T17:14:14.434Z - datafeed.js - Cannot access 'dhanFeed' before initialization
+2024-12-03T17:16:44.777Z - datafeed.js - ws__WEBPACK_IMPORTED_MODULE_1__.WebSocket is not a constructor
+2024-12-03T17:22:17.875Z - datafeed.js - ws__WEBPACK_IMPORTED_MODULE_1__.WebSocket is not a constructor
+2024-12-03T17:22:39.501Z - datafeed.js - ws__WEBPACK_IMPORTED_MODULE_1__.WebSocket is not a constructor
+2024-12-03T17:22:51.965Z - datafeed.js - ws__WEBPACK_IMPORTED_MODULE_1__.WebSocket is not a constructor
+2024-12-03T17:23:52.295Z - datafeed.js - ws__WEBPACK_IMPORTED_MODULE_1__.WebSocket is not a constructor
+2024-12-04T08:24:08.745Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:24:40.985Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:25:19.257Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:29:34.717Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:31:45.418Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:31:54.521Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:33:30.436Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:34:39.913Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:35:59.564Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:36:21.430Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:36:31.963Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:38:22.272Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:45:43.433Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:54:03.676Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T08:54:26.291Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:10:56.774Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:12:18.057Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:13:28.538Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:14:31.148Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:14:36.402Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:25:38.390Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:29:18.207Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:42:33.503Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:46:36.017Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T09:53:53.400Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T11:06:17.031Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T11:08:11.209Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T11:52:53.942Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-04T12:09:08.441Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T04:01:26.489Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T04:09:39.871Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T04:40:02.132Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T04:41:52.887Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T04:43:00.201Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T05:35:42.558Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T05:44:51.201Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T05:46:28.605Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T05:46:41.173Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T05:53:38.301Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T05:53:49.217Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T05:58:33.122Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T06:04:32.305Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T06:11:56.501Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T06:13:01.761Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T06:13:18.867Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T06:16:43.920Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T06:24:14.523Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T06:27:35.628Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T07:06:29.756Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T07:08:34.434Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T07:09:29.612Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T07:10:21.015Z - datafeed.js - Cannot read properties of null (reading 'exchange')
+2024-12-05T07:11:49.018Z - datafeed.js - fullSymbol.match is not a function
+2024-12-05T07:16:02.066Z - datafeed.js - Failed to fetch
+2024-12-06T05:58:51.761Z - datafeed.js - Failed to fetch
+2024-12-06T06:41:04.131Z - datafeed.js - Failed to fetch
+2024-12-06T07:28:02.566Z - datafeed.js - Failed to fetch
+2024-12-06T11:57:40.857Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T11:58:09.865Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:00:54.812Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:02:55.789Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:03:09.132Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:03:16.204Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:03:22.589Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:06:40.849Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:07:24.481Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:07:57.429Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:11:08.636Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:12:54.987Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:13:32.654Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:14:56.849Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:15:01.869Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:19:44.689Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:20:10.420Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:22:34.814Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:22:54.113Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-06T12:23:46.776Z - TradingAccount.js - HTTP error! Status: 404
+2024-12-09T05:51:37.555Z - datafeed.js - channelToSubscription.get is not a function
+2024-12-09T05:52:41.632Z - datafeed.js - channelToSubscription.get is not a function
+2024-12-09T05:53:04.410Z - datafeed.js - Assignment to constant variable.
+2024-12-10T07:15:40.422Z - datafeed.js - Cannot read properties of undefined (reading 'symbol')
+2024-12-10T12:12:27.570Z - datafeed.js - data.Data.map is not a function
+2024-12-10T12:13:12.932Z - datafeed.js - data.Data.map is not a function
+2024-12-10T12:15:26.904Z - datafeed.js - data.Data.map is not a function
+2024-12-10T12:16:19.020Z - datafeed.js - data.Data.map is not a function
+2024-12-10T12:16:22.468Z - datafeed.js - data.Data.map is not a function
+2024-12-10T12:17:48.190Z - datafeed.js - data.Data.map is not a function
+2024-12-12T04:59:53.982Z - datafeed.js - Failed to fetch
+2024-12-13T11:50:42.031Z - MainIndicator.js - handleNext is not a function
+2024-12-13T12:06:28.316Z - MainIndicator.js - handleNext is not a function
+2024-12-13T12:18:27.461Z - MainIndicator.js - handleNext is not a function
+2024-12-13T12:20:40.099Z - MainIndicator.js - handleNext is not a function
+2024-12-13T12:22:04.116Z - MainIndicator.js - handleNext is not a function
+2024-12-13T12:23:54.819Z - MainIndicator.js - handleNext is not a function
+2024-12-13T12:27:08.292Z - MainIndicator.js - handleNext is not a function
+2024-12-13T12:36:36.331Z - MainIndicator.js - handleNext is not a function
+2024-12-13T13:56:28.074Z - MainIndicator.js - handleNext is not a function
+2024-12-13T13:57:04.464Z - MainIndicator.js - handleNext is not a function
+2024-12-13T13:57:17.883Z - MainIndicator.js - handleNext is not a function
